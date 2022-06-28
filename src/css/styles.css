@@ -18,3 +18,24 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+
+.title {
+  font-size: 30px;
+  color: blue;
+}
+
+.capital {
+  font-size: 20px;
+  color: blue;
+}
+
+.population {
+  font-size: 20px;
+  color: orange;
+}
+
+.languages {
+  font-size: 20px;
+  color: orange;
+}

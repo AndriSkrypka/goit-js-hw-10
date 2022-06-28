@@ -39,17 +39,17 @@ function createList(array) {
 
 function createCountyCard(array) {
   return `<h2 class="title">
-            <img class="box-img" src="${array[0].flags.svg}" alt="${
+            <img class="img" src="${array[0].flags.svg}" alt="${
     array[0].name
   }" width="60">${array[0].name}
           </h2>
-          <p class="text"> <span class="forhand">Capital: </span>${
+          <p class="text"> <span class="capital">Capital: </span>${
             array[0].capital
           }</p>
-          <p class="text"> <span class="forhand">Population: </span>${
+          <p class="text"> <span class="population">Population: </span>${
             array[0].population
           }</p>
-            <p class="text"> <span class="forhand">Languages: </span>${array[0].languages
+            <p class="text"> <span class="languages">Languages: </span>${array[0].languages
               .map(item => item.name)
               .join(' ,')}</p>`;
 }
